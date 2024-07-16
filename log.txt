@@ -1,0 +1,110 @@
+2024-07-04 16:23:22.193151 Config set by (username) -> system-view
+Enter system view, return user view with Ctrl+Z.
+[M-s1]vlan 12
+[M-s1-vlan12]name LAN
+[M-s1-vlan12]return
+<M-s1> 
+ ------------------------------ 
+2024-07-05 15:36:45.044060 Config set by (username) -> system-view
+Enter system view, return user view with Ctrl+Z.
+[M-s1]int g 0/0/3
+[M-s1-GigabitEthernet0/0/3]dis this
+#
+interface GigabitEthernet0/0/3
+ port link-type access
+ port default vlan 12
+#
+return
+[M-s1-GigabitEthernet0/0/3]port link-type access
+[M-s1-GigabitEthernet0/0/3]port def vlan 12
+[M-s1-GigabitEthernet0/0/3]return
+<M-s1> 
+ ------------------------------ 
+2024-07-08 19:47:07.185191 Config set by (Feras) -> system-view
+Enter system view, return user view with Ctrl+Z.
+[M-s1]int g 0/0/1
+[M-s1-GigabitEthernet0/0/1]dis this
+#
+interface GigabitEthernet0/0/1
+ description test
+ port link-type access
+ port default vlan 11
+#
+return
+[M-s1-GigabitEthernet0/0/1]description  Test2
+[M-s1-GigabitEthernet0/0/1]return
+<M-s1> 
+ ------------------------------ 
+2024-07-08 19:47:54.519023 Config set by (Feras) -> system-view
+Enter system view, return user view with Ctrl+Z.
+[M-s1]int g 0/0/1
+[M-s1-GigabitEthernet0/0/1]dis this
+#
+interface GigabitEthernet0/0/1
+ description Test2
+ port link-type access
+ port default vlan 11
+#
+return
+[M-s1-GigabitEthernet0/0/1]description  Test3
+[M-s1-GigabitEthernet0/0/1]return
+<M-s1> 
+ ------------------------------ 
+2024-07-08 19:48:35.372731 Config set by (Feras) -> system-view
+Enter system view, return user view with Ctrl+Z.
+[M-s1]int g 0/0/1
+[M-s1-GigabitEthernet0/0/1]dis this
+#
+interface GigabitEthernet0/0/1
+ description Test3
+ port link-type access
+ port default vlan 11
+#
+return
+[M-s1-GigabitEthernet0/0/1]description  Test4
+[M-s1-GigabitEthernet0/0/1]return
+<M-s1> 
+ ------------------------------ 
+2024-07-08 19:49:56.594768 Config set by (Feras) -> system-view
+Enter system view, return user view with Ctrl+Z.
+[M-s1]int g 0/0/1
+[M-s1-GigabitEthernet0/0/1]dis this
+#
+interface GigabitEthernet0/0/1
+ description Test4
+ port link-type access
+ port default vlan 11
+#
+return
+[M-s1-GigabitEthernet0/0/1]description  Test4
+[M-s1-GigabitEthernet0/0/1]return
+<M-s1> 
+ ------------------------------ 
+2024-07-14 12:19:15.497820 Timeout Failure (Device IP is: 10.9.0.1) 
+ ------------------------------ 
+2024-07-14 12:19:15.646479 Timeout Failure (Device IP is: 10.10.0.230) 
+ ------------------------------ 
+2024-07-14 12:20:03.050328 Timeout Failure (Device IP is: 10.9.0.1) 
+ ------------------------------ 
+2024-07-14 12:20:03.054004 Timeout Failure (Device IP is: 10.10.0.230) 
+ ------------------------------ 
+2024-07-14 12:20:43.094882 Timeout Failure (Device IP is: 10.9.0.1) 
+ ------------------------------ 
+2024-07-14 12:20:43.102598 Timeout Failure (Device IP is: 10.10.0.230) 
+ ------------------------------ 
+2024-07-14 12:22:48.095660 Timeout Failure (Device IP is: 10.9.0.1) 
+ ------------------------------ 
+2024-07-14 12:22:48.106512 Timeout Failure (Device IP is: 10.10.0.230) 
+ ------------------------------ 
+2024-07-14 12:23:13.780495 Timeout Failure (Device IP is: 10.9.0.1) 
+ ------------------------------ 
+2024-07-14 12:23:13.784937 Timeout Failure (Device IP is: 10.10.0.230) 
+ ------------------------------ 
+2024-07-14 12:23:55.138289 Timeout Failure (Device IP is: 10.9.0.1) 
+ ------------------------------ 
+2024-07-14 12:23:55.141567 Timeout Failure (Device IP is: 10.10.0.230) 
+ ------------------------------ 
+2024-07-14 12:24:57.697038 Timeout Failure (Device IP is: 10.9.0.1) 
+ ------------------------------ 
+2024-07-14 12:24:57.700904 Timeout Failure (Device IP is: 10.10.0.230) 
+ ------------------------------ 
